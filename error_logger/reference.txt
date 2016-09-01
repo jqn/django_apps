@@ -1,0 +1,20 @@
+Good logging practice in Python
+http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python
+
+Logging HOWTO
+https://docs.python.org/2/howto/logging.html#logging-basic-tutorial
+
+Basic Logging Tutorial
+https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+
+Advanced Logging Tutorial
+https://docs.python.org/2/howto/logging.html#logging-advanced-tutorial
+
+Logging Cookbook
+https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook
+
+The Hitchhiker's guide to python
+http://docs.python-guide.org/en/latest/writing/logging/
+
+The Twelve factor app
+https://12factor.net/logs
