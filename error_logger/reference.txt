@@ -16,5 +16,14 @@ https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook
 The Hitchhiker's guide to python
 http://docs.python-guide.org/en/latest/writing/logging/
 
+Python 101: An Intro to logging
+http://www.blog.pythonlibrary.org/2012/08/02/python-101-an-intro-to-logging/
+
+Exceptional Logging of Exceptions in Python
+https://www.loggly.com/blog/exceptional-logging-of-exceptions-in-python/
+
+Logging Exceptions To Your SQLAlchemy Database
+http://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/logging/sqlalchemy_logger.html
+
 The Twelve factor app
 https://12factor.net/logs
