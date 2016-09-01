@@ -27,3 +27,6 @@ http://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/logging/sqlalc
 
 The Twelve factor app
 https://12factor.net/logs
+
+DynamoDB & Django Part 2: Implementing DynamoDB in Django
+https://wmerobertson.wordpress.com/2016/02/02/dynamodb-django-part-2-implementing-dynamodb-in-django/
