@@ -17,8 +17,20 @@ Blog Post Pattern:
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from rest_framework.routers import DefaultRouter
+from home import views
+from app import views
+
+# Create a router
+router = DefaultRouter()
+router.register(r'auftrag', views.UserViewSet)
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'', include('blog.urls')),
+    # url(r'^', include(router.urls)),
+    # url(r'^admin/', admin.site.urls),
+    # # url(r'', include('hello_web.urls')),
+    # url(r'', include('blog.urls')),
+    #  url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    'app.views',
+    url(r'^$','home')
 ]

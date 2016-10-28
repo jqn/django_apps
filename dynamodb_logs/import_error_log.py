@@ -18,16 +18,18 @@ dynamodb = boto3.resource('dynamodb', region_name='us-west-2', endpoint_url="htt
 table = dynamodb.Table('import_logs')
 
 level = 50
+date = '01/11'
+error_message = arg
 
 response = table.put_item(
    Item={
         'level': level,
-        'info': {
-            'plot':"Nothing happens at all.",
-            'rating': decimal.Decimal(0)
+        'error': {
+            'date': date,
+            'error_message': error_message
         }
     }
 )
-
+print(error_message)
 print("PutItem succeeded:")
 print(json.dumps(response, indent=4, cls=DecimalEncoder))

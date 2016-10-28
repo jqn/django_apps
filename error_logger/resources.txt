@@ -39,3 +39,14 @@ https://www.uplift.agency/blog/posts/2016/03/clearcare-dynamodb
 
 aws dynamodb cli
 http://docs.aws.amazon.com/cli/latest/reference/dynamodb/index.html#cli-aws-dynamodb
+
+DynamoDB Boto3 Example
+http://mattharris.org/2015/12/dynamodb-boto3-example/
+
+
+http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/GettingStarted.Python.02.html
+
+
+http://mattharris.org/2015/12/dynamodb-boto3-example/
+
+http://nanvel.name/2015/05/dynamodb-example-3-2
